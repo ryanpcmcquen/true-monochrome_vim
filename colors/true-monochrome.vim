@@ -12,11 +12,7 @@ endif
 
 let colors_name="true-monochrome"
 
-if has("gui_running")
-  set background=light
-else
-  set background=dark
-endif
+set background=dark
 
 hi Normal          guifg=#A0A0A0    guibg=#000000    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
 hi DiffAdd         guifg=#FFFFFF    guibg=#000000    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
@@ -70,6 +66,6 @@ hi TabLineFill     guifg=#A0A0A0    guibg=#000000    ctermfg=grey     ctermbg=bl
 hi TabLineSel      guifg=#A0A0A0    guibg=#000000    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
 hi cucumberTags    guifg=#A0A0A0    guibg=#000000    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
 hi htmlTagN        guifg=#A0A0A0    guibg=#000000    ctermfg=grey     ctermbg=black    gui=BOLD         cterm=BOLD
-hi Cursor          guifg=#A0A0A0    guibg=#000000    ctermfg=white    ctermbg=black    gui=NONE         cterm=NONE
-hi CursorLine      guifg=#A0A0A0    guibg=#000000    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
-hi CursorColumn    guifg=#A0A0A0    guibg=#000000    ctermfg=grey     ctermbg=black    gui=NONE         cterm=NONE
+hi Cursor          guifg=#000000    guibg=#FFFFFF    ctermfg=black    ctermbg=white    gui=NONE         cterm=NONE
+hi CursorLine      guifg=#A0A0A0    guibg=#FFFFFF    ctermfg=grey     ctermbg=white    gui=NONE         cterm=NONE
+hi CursorColumn    guifg=#A0A0A0    guibg=#FFFFFF    ctermfg=grey     ctermbg=white    gui=NONE         cterm=NONE
